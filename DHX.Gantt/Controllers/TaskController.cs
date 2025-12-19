@@ -57,8 +57,6 @@ namespace DHX.Gantt.Controllers
         public async Task<IActionResult?> Put(int id, WebApiTask apiTask)
         {
             var updatedTask = (Models.Task)apiTask;
-            updatedTask.Id = id;
-
             var dbTask = await _context.Tasks.FindAsync(id);
 
             if (dbTask == null)

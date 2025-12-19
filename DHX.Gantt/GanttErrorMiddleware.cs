@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿using Newtonsoft.Json;
 
 namespace DHX.Gantt
 {
@@ -25,7 +25,7 @@ namespace DHX.Gantt
         }
         private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
-            var result = JsonSerializer.Serialize(new
+            var result = JsonConvert.SerializeObject(new
             {
                 action = "error"
             });
