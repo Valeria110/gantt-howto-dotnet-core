@@ -29,8 +29,8 @@ namespace DHX.Gantt.Controllers
 
             return Ok(new
             {
-                data = tasks,
-                links = links
+                tasks,
+                links
             });
         }
 
