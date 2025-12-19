@@ -18,6 +18,16 @@ Requires MS Visual Studio 2022. The version of the MS Visual Studio should suppo
 
 #### Using Visual Studio Code:
 
+Alternatively, install the dotnet runtime manually: https://learn.microsoft.com/en-us/dotnet/core/install/
+
+To check if .NET is installed, open terminal and run:
+
+```bash
+dotnet --version
+```
+
+**Steps to run:**
+
 1. Open the project folder in VS Code
 2. Open the terminal (Ctrl+` or View → Terminal)
 3. Navigate to the project folder and run:
