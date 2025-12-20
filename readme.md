@@ -44,7 +44,7 @@ Using `dotnet watch` enables automatic code reloading when you modify C# files.
 
 ### Related resources
 
-[Complete tutorial](https://docs.dhtmlx.com/gantt/desktop__howtostart_dotnet_core.html)
+[Complete tutorial](https://docs.dhtmlx.com/gantt/integrations/dotnet/howtostart-dotnet-core/)
 
 [DHTMLX Gantt product page](https://dhtmlx.com/docs/products/dhtmlxGantt/)
 
